@@ -45,7 +45,7 @@
                             </span>
                             <!--end::Svg Icon-->
                         </span>
-                        <span class="menu-title">Main Dashboard</span>
+                        <span class="menu-title">Home</span>
                     </a>
                 </div>
 
@@ -334,7 +334,7 @@
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
-                                        <span class="menu-title">View Role</span>
+                                        <span class="menu-title">Role Permission</span>
                                     </a>
                                 </div>
                             </div>

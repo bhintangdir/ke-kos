@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class RolePermissionController extends Controller
 {
@@ -13,7 +14,11 @@ class RolePermissionController extends Controller
      */
     public function index()
     {
-        //
+        // get data from role permission table
+    	$role_permission = DB::table('role_permission')->get();
+
+    	// send role permission data to index view
+    	return view('index',['role_permission' => $role_permission]);
     }
 
     /**

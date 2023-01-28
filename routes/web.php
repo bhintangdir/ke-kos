@@ -24,3 +24,15 @@ Route::get('/default', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+
+//User, Role, Permission
+Route::get('/users','UserController@index');
+//Route::get('/roles','RoleController@index');
+Route::get('/roles', function () {
+    return view('roles.index');
+});
+
+//Route::get('/permissions','PermissionsController@index');
+Route::get('/permissions', function () {
+    return view('permissions.index');
+});
